@@ -1,0 +1,21 @@
+plugins {
+	id 'java'
+	id 'application'
+}
+
+group 'com.niteshrajput'
+version '1.0-SNAPSHOT'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'io.github.elf4j:elf4j-log4j:1.0.2'
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+test {
+	useJUnitPlatform()
+}

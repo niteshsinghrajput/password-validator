@@ -1,0 +1,7 @@
+logging:
+  level:
+    com.niteshrajput.passwordvalidator: ERROR
+  path: logs
+
+passwordvalidator:
+  minimumPasswordLength: 8
